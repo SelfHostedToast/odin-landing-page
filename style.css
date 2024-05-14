@@ -1,0 +1,35 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.header-container {
+  color: #e5e7eb;
+  align-items: center;
+  background-color: #1f2937;
+  display: flex;
+  justify-content: space-evenly;
+}
+.links ul {
+  display: flex;
+  flex-direction: row;
+  gap: 1.5rem;
+}
+ul {
+  list-style-type: none;
+}
+.links li {
+  font-size: 18px;
+  margin: 0;
+  padding: 0;
+}
+.logo h1 {
+  font-size: 24px;
+  color: #f9faf8;
+}
+.hero {
+  background-color: #1f2937;
+  height: 600px;
+  display: flex;
+}
